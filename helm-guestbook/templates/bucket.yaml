@@ -7,4 +7,4 @@ spec:
     region: eu-central-1
   providerConfigRef:
     name: default
-  deletionPolicy: Orphan
+ # deletionPolicy: Orphan
