@@ -1,7 +1,7 @@
 apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: "corssplane-test-{{randNumeric 24 | nospace -}}"
+  name: "crossplane-test-{{randNumeric 24 | nospace -}}"
 spec:
   forProvider:
     region: eu-central-1
