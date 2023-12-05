@@ -10,6 +10,6 @@ spec:
   forProvider:
     name: examplequeue
     region: eu-central-1
-    fifoQueue: true
+    fifoQueue: false
   providerConfigRef:
     name: default
