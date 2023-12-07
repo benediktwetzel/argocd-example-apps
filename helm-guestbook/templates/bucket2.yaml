@@ -2,6 +2,8 @@ apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
   name: hpv-crossplane-bucket2
+  annotations:
+    manuell-annotations: wetzel
 spec:
   forProvider:
     region: eu-central-1

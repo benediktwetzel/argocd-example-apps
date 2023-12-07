@@ -1,7 +1,7 @@
 apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: hpv-crossplane-test-buckt #"crossplane-test-{{randNumeric 24 | nospace -}}"
+  name: hpv-crossplane-test-buckt
 spec:
   forProvider:
     region: eu-central-1
