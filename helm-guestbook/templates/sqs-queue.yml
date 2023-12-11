@@ -1,0 +1,13 @@
+apiVersion: sqs.aws.upbound.io/v1beta1
+kind: Queue
+metadata:
+ name: crossplane-sqs-queue
+ labels:
+  marina.external-resource/aws: sqs-external-queue
+spec:
+  forProvider:
+    name: examplequeue
+    region: eu-central-1
+    fifoQueue: true
+  providerConfigRef:
+    name: default

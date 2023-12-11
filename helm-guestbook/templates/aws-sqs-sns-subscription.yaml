@@ -1,0 +1,14 @@
+apiVersion: sns.aws.upbound.io/v1beta1
+kind: TopicSubscription
+metadata:
+  name: crossplane-sqs-sns-subscription
+spec:
+  forProvider:
+    endpointSelector:
+      matchLabels:
+        marina.external-resource/aws: sqs-external-queue
+    protocol: sqs
+    region: eu-central-1
+    topicArnSelector:
+      matchLabels:
+        marina.external-resource/aws: sns-external-topic
