@@ -1,7 +1,7 @@
 apiVersion: sqs.aws.upbound.io/v1beta1
 kind: Queue
 metadata:
- name: crossplane-sqs-queue
+ name: crossplane-sqs-queue.fifo
  labels:
   marina.external-resource/aws: sqs-external-queue
 spec:
