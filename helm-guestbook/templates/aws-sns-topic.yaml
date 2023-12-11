@@ -7,5 +7,6 @@ metadata:
 spec:
   forProvider:
     region: eu-central-1
+    fifoTopic: true
   providerConfigRef:
     name: default
