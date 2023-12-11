@@ -6,6 +6,7 @@ metadata:
     marina.external-resource/aws: sns-external-topic
 spec:
   forProvider:
+    displayName: crossplane-sns-topic-1
     region: eu-central-1
     fifoTopic: true
   providerConfigRef:
@@ -19,6 +20,7 @@ metadata:
     marina.external-resource/aws: sns-external-fifo-topic
 spec:
   forProvider:
+    displayName: crossplane-sns-fifo-topic-1
     region: eu-central-1
     fifoTopic: true
   providerConfigRef:
