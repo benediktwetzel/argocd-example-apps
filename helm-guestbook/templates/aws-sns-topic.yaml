@@ -1,7 +1,7 @@
 apiVersion: sns.aws.upbound.io/v1beta1
 kind: Topic
 metadata:
-  name: crossplane-sns-topic
+  name: crossplane-sns-topic-1
   labels:
     marina.external-resource/aws: sns-external-topic
 spec:
@@ -14,7 +14,7 @@ spec:
 apiVersion: sns.aws.upbound.io/v1beta1
 kind: Topic
 metadata:
-  name: crossplane-sns-fifo-topic
+  name: crossplane-sns-fifo-topic-1
   labels:
     marina.external-resource/aws: sns-external-fifo-topic
 spec:
