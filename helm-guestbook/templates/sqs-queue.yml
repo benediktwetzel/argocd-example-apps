@@ -6,7 +6,7 @@ metadata:
   marina.external-resource/aws: sqs-external-queue
 spec:
   forProvider:
-    name: examplequeue
+    name: examplequeue.fifo
     region: eu-central-1
     fifoQueue: true
   providerConfigRef:
