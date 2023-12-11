@@ -11,4 +11,4 @@ spec:
     region: eu-central-1
     topicArnSelector:
       matchLabels:
-        marina.external-resource/aws: sns-external-topic
+        marina.external-resource/aws: sns-external-fifo-topic

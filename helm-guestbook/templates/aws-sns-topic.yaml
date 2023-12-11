@@ -10,3 +10,16 @@ spec:
     fifoTopic: true
   providerConfigRef:
     name: default
+---
+apiVersion: sns.aws.upbound.io/v1beta1
+kind: Topic
+metadata:
+  name: crossplane-sns-fifo-topic
+  labels:
+    marina.external-resource/aws: sns-external-fifo-topic
+spec:
+  forProvider:
+    region: eu-central-1
+    fifoTopic: true
+  providerConfigRef:
+    name: default
