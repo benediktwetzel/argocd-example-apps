@@ -1,7 +1,7 @@
 apiVersion: sns.aws.upbound.io/v1beta1
 kind: TopicSubscription
 metadata:
- annotations:
+  annotations:
     argocd.argoproj.io/sync-wave: 1
   name: crossplane-sqs-sns-subscription
 spec:
